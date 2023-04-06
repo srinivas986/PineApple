@@ -419,5 +419,5 @@ app.use((req, res) => {
 // Start server
 const port = process.env.PORT || 9999;
 app.listen(port, () => {
-  console.log(`Sever started on port : ${port}`);
+  console.log(`on port : ${port}`);
 });
