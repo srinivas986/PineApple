@@ -1,0 +1,8 @@
+.env
+node_modules
+.vscode
+logs
+public/uploads/*
+uploads
+Notes.txt
+
