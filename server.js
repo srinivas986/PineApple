@@ -27,9 +27,9 @@ mongoose
 const User = require("./models/User");
 const mailModel = require("./models/mailModel");
 
-// ///// loggers..
-// const logger = require("morgan");
-// app.use(logger("dev"));
+///// loggers..
+const logger = require("morgan");
+app.use(logger("dev"));
 
 const winston = require("winston");
 
